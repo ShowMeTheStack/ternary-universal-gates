@@ -1,0 +1,34 @@
+{
+ "STI+NTI+PTI+TNAND+TNOR": {
+  "unary_maps": 12,
+  "complete": false
+ },
+ "MIN+MAX+NTI+PTI": {
+  "unary_maps": 12,
+  "complete": false
+ },
+ "TNAND+C1": {
+  "unary_maps": 9,
+  "complete": false
+ },
+ "STI+NTI+PTI+TNAND+TNOR+C1": {
+  "unary_maps": 27,
+  "complete": true
+ },
+ "STI+NTI+PTI+TNAND+TNOR+INC": {
+  "unary_maps": 27,
+  "complete": true
+ },
+ "TNAND+INC": {
+  "unary_maps": 27,
+  "complete": true
+ },
+ "MIN+MAX+INC": {
+  "unary_maps": 27,
+  "complete": true
+ },
+ "STI+NTI+PTI+TNAND+TNOR+C1+INC+DEC": {
+  "unary_maps": 27,
+  "complete": true
+ }
+}

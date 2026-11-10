@@ -1,0 +1,11 @@
+paper/
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+*.spl
+*.fdb_latexmk
+*.fls
+__pycache__/
+target/

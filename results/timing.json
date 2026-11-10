@@ -1,0 +1,8 @@
+[
+{"method":"unary_all","n_gates":19683,"universal_found":3774,"ops":3132546,"runs":10,"median_s":0.005957542,"min_s":0.005920081,"max_s":0.009116523},
+{"method":"unary_reps","n_gates":1734,"universal_found":322,"ops":269140,"runs":10,"median_s":0.000509707,"min_s":0.000498159,"max_s":0.000523287},
+{"method":"rousseau_all","n_gates":19683,"universal_found":3774,"ops":275562,"runs":10,"median_s":0.0011109,"min_s":0.001047607,"max_s":0.001114847},
+{"method":"rousseau_reps","n_gates":1734,"universal_found":322,"ops":24276,"runs":10,"median_s":0.000089507,"min_s":0.000088651,"max_s":0.000100435},
+{"method":"canonicalise_all","n_gates":19683,"runs":10,"median_s":0.001174381},
+{"method":"full_closure_reps","n_universal":322,"median_s_universal":1.799910613,"total_s_universal":539.8743077019999,"ops_universal":168077758314,"n_nonuniversal":1412,"median_s_nonuniversal":0.001089627,"total_s_nonuniversal":73.81180175100002,"ops_nonuniversal":23085601730}
+]

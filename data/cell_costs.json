@@ -1,0 +1,11 @@
+{
+  "_doc": "CNTFET transistor counts per ternary cell. Variants are the three inverter/NAND styles tabulated by Etiemble, arXiv:1908.06841 (2019) Tables II/III, and the mux cells of Etiemble arXiv:2101.01516 (2021) Table III. CONST1 = Vdd/2 rail (0T, needs 2nd supply) or 2T divider (static power). Values 0=-,1=0,2=+ in our encoding; Etiemble uses 0,1,2 unbalanced but cell costs are representation-independent.",
+  "variants": {
+    "lin2011":     {"source": "Lin, Kim & Lombardi, IEEE TNANO 10(2):217-225, 2011 (via Etiemble 2019 [6])", "STI": 6, "NTI": 2, "PTI": 2, "TNAND": 10, "TNOR": 10, "CONST1": 0, "NOT_binary": 2, "MUX2": 4, "MUX3": 16, "SUCC": 8, "PRED": 8},
+    "sharifi2015": {"source": "Sharifi et al., Microelectronics J. 2015 (via Etiemble 2019 [5])", "STI": 8, "NTI": 2, "PTI": 2, "TNAND": 16, "TNOR": 16, "CONST1": 0, "NOT_binary": 2, "MUX2": 4, "MUX3": 16, "SUCC": 8, "PRED": 8},
+    "younepal2011":{"source": "You & Nepal, Micro & Nano Letters 2011 (via Etiemble 2019 [8]); two supplies + dc path", "STI": 3, "NTI": 2, "PTI": 2, "TNAND": 5, "TNOR": 5, "CONST1": 0, "NOT_binary": 2, "MUX2": 4, "MUX3": 16, "SUCC": 8, "PRED": 8}
+  },
+  "binary_reference": {"source": "Etiemble 2021 §IV; standard CMOS", "NAND": 4, "NOR": 4, "INV": 2, "XOR": 12, "HA_mux": 14, "FA_cmos": 28, "FA_nand9": 36, "AND": 6},
+  "ternary_reference_adders": {"source": "Etiemble 2021 Tables III, IV, VI-VIII", "HA_best_2PS": 42, "HA_best_1PS": 48, "FA_best_2PS": 72, "FA_best_1PS": 78, "HA_lin2011": 136, "FA_keshavarzian2014": 132, "FA_ebrahimi2012": 106, "FA_mirzaee2014_1PS": 142},
+  "ternary_reference_multiplier": {"source": "Etiemble 2019 Table XII (unbalanced ternary)", "MUL1_trit_2outputs": 38, "HA": 66, "FA": 124, "MUL5x5_total": 6190, "binary_MUL8x8_total": 2382}
+}

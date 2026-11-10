@@ -1,0 +1,1 @@
+{"gate": 10400, "task": "ha_joint", "status": "OPTIMAL", "size": 8, "lb": 8, "depth_of_size_opt": null, "gates": [["g10400", "x0", "x1"], ["g10400", "x1", "x0"], ["g10400", "g0", "g0"], ["g10400", "g0", "g1"], ["g10400", "x0", "g3"], ["g10400", "g4", "g1"], ["g10400", "g2", "g5"], ["g10400", "g6", "g3"]], "outputs": ["g7", "g5"], "wall_size": 1.76, "time_limit": 120.0}

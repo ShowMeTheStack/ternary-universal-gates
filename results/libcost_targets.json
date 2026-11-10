@@ -1,0 +1,743 @@
+{
+ "h_sum": {
+  "min_cells": 8,
+  "status": "OPTIMAL",
+  "lb_cells": 8,
+  "cells_circuit": [
+   [
+    "TNAND",
+    "x0",
+    "x1"
+   ],
+   [
+    "TNOR",
+    "x0",
+    "g0"
+   ],
+   [
+    "TNOR",
+    "x1",
+    "x0"
+   ],
+   [
+    "DEC",
+    "g2",
+    "g2"
+   ],
+   [
+    "TNAND",
+    "g3",
+    "g0"
+   ],
+   [
+    "INC",
+    "g4",
+    "g4"
+   ],
+   [
+    "TNOR",
+    "g1",
+    "g5"
+   ],
+   [
+    "STI",
+    "g6",
+    "g6"
+   ]
+  ],
+  "outputs": [
+   "g7"
+  ],
+  "lin2011": {
+   "transistors": 70,
+   "cells": 10,
+   "circuit": [
+    [
+     "TNAND",
+     "x0",
+     "x1"
+    ],
+    [
+     "TNOR",
+     "x0",
+     "x1"
+    ],
+    [
+     "NTI",
+     "g1",
+     "g1"
+    ],
+    [
+     "PTI",
+     "g1",
+     "g1"
+    ],
+    [
+     "PTI",
+     "g2",
+     "g2"
+    ],
+    [
+     "DEC",
+     "g0",
+     "g0"
+    ],
+    [
+     "STI",
+     "g5",
+     "g5"
+    ],
+    [
+     "TNAND",
+     "g4",
+     "g0"
+    ],
+    [
+     "TNAND",
+     "g7",
+     "g6"
+    ],
+    [
+     "TNAND",
+     "g8",
+     "g3"
+    ]
+   ],
+   "outputs": [
+    "g9"
+   ]
+  },
+  "sharifi2015": {
+   "transistors": 104,
+   "cells": 8,
+   "circuit": [
+    [
+     "TNAND",
+     "x1",
+     "x0"
+    ],
+    [
+     "TNOR",
+     "x0",
+     "x1"
+    ],
+    [
+     "TNAND",
+     "g1",
+     "x0"
+    ],
+    [
+     "INC",
+     "g0",
+     "g0"
+    ],
+    [
+     "TNOR",
+     "g1",
+     "g3"
+    ],
+    [
+     "DEC",
+     "g4",
+     "g4"
+    ],
+    [
+     "TNAND",
+     "g2",
+     "g5"
+    ],
+    [
+     "STI",
+     "g6",
+     "g6"
+    ]
+   ],
+   "outputs": [
+    "g7"
+   ]
+  },
+  "younepal2011": {
+   "transistors": 42,
+   "cells": 9,
+   "circuit": [
+    [
+     "TNAND",
+     "x0",
+     "x1"
+    ],
+    [
+     "TNOR",
+     "x0",
+     "x1"
+    ],
+    [
+     "NTI",
+     "g1",
+     "g1"
+    ],
+    [
+     "PTI",
+     "g1",
+     "g1"
+    ],
+    [
+     "TNAND",
+     "g0",
+     "g3"
+    ],
+    [
+     "INC",
+     "g4",
+     "g4"
+    ],
+    [
+     "TNAND",
+     "g2",
+     "g5"
+    ],
+    [
+     "TNAND",
+     "g4",
+     "g1"
+    ],
+    [
+     "TNAND",
+     "g7",
+     "g6"
+    ]
+   ],
+   "outputs": [
+    "g8"
+   ]
+  },
+  "wall": 5775.0
+ },
+ "h_carry": {
+  "min_cells": 5,
+  "status": "OPTIMAL",
+  "lb_cells": 5,
+  "cells_circuit": [
+   [
+    "TNAND",
+    "x0",
+    "x1"
+   ],
+   [
+    "TNOR",
+    "x0",
+    "x1"
+   ],
+   [
+    "PTI",
+    "g1",
+    "g1"
+   ],
+   [
+    "DEC",
+    "g2",
+    "g2"
+   ],
+   [
+    "TNAND",
+    "g0",
+    "g3"
+   ]
+  ],
+  "outputs": [
+   "g4"
+  ],
+  "lin2011": {
+   "transistors": 40,
+   "cells": 5,
+   "circuit": [
+    [
+     "TNAND",
+     "x0",
+     "x1"
+    ],
+    [
+     "TNOR",
+     "x0",
+     "x1"
+    ],
+    [
+     "PTI",
+     "g1",
+     "g1"
+    ],
+    [
+     "DEC",
+     "g2",
+     "g2"
+    ],
+    [
+     "TNAND",
+     "g0",
+     "g3"
+    ]
+   ],
+   "outputs": [
+    "g4"
+   ]
+  },
+  "sharifi2015": {
+   "transistors": 54,
+   "cells": 7,
+   "circuit": [
+    [
+     "NTI",
+     "x1",
+     "x1"
+    ],
+    [
+     "PTI",
+     "x1",
+     "x1"
+    ],
+    [
+     "NTI",
+     "g1",
+     "g1"
+    ],
+    [
+     "INC",
+     "g0",
+     "g0"
+    ],
+    [
+     "TNOR",
+     "g3",
+     "x0"
+    ],
+    [
+     "INC",
+     "g2",
+     "g2"
+    ],
+    [
+     "TNOR",
+     "g4",
+     "g5"
+    ]
+   ],
+   "outputs": [
+    "g6"
+   ]
+  },
+  "younepal2011": {
+   "transistors": 22,
+   "cells": 6,
+   "circuit": [
+    [
+     "TNAND",
+     "x0",
+     "x1"
+    ],
+    [
+     "TNOR",
+     "x0",
+     "x1"
+    ],
+    [
+     "PTI",
+     "g1",
+     "g1"
+    ],
+    [
+     "C1",
+     "x0",
+     "x0"
+    ],
+    [
+     "TNAND",
+     "g2",
+     "g3"
+    ],
+    [
+     "TNAND",
+     "g4",
+     "g0"
+    ]
+   ],
+   "outputs": [
+    "g5"
+   ]
+  },
+  "wall": 58.7
+ },
+ "ha_joint": {
+  "min_cells": 10,
+  "status": "OPTIMAL",
+  "lb_cells": 10,
+  "cells_circuit": [
+   [
+    "TNAND",
+    "x0",
+    "x1"
+   ],
+   [
+    "TNOR",
+    "x1",
+    "x0"
+   ],
+   [
+    "DEC",
+    "g1",
+    "g1"
+   ],
+   [
+    "TNAND",
+    "g2",
+    "g0"
+   ],
+   [
+    "TNOR",
+    "g0",
+    "x0"
+   ],
+   [
+    "INC",
+    "g3",
+    "g3"
+   ],
+   [
+    "TNOR",
+    "g5",
+    "g4"
+   ],
+   [
+    "TNOR",
+    "g6",
+    "g3"
+   ],
+   [
+    "TNOR",
+    "g1",
+    "g7"
+   ],
+   [
+    "TNOR",
+    "g6",
+    "g6"
+   ]
+  ],
+  "outputs": [
+   "g9",
+   "g8"
+  ],
+  "lin2011": {
+   "transistors": 84,
+   "cells": 11,
+   "circuit": [
+    [
+     "TNAND",
+     "x1",
+     "x0"
+    ],
+    [
+     "TNOR",
+     "x0",
+     "x1"
+    ],
+    [
+     "NTI",
+     "g1",
+     "g1"
+    ],
+    [
+     "NTI",
+     "g2",
+     "g2"
+    ],
+    [
+     "PTI",
+     "g1",
+     "g1"
+    ],
+    [
+     "TNAND",
+     "g3",
+     "g0"
+    ],
+    [
+     "DEC",
+     "g0",
+     "g0"
+    ],
+    [
+     "TNAND",
+     "g6",
+     "g4"
+    ],
+    [
+     "TNAND",
+     "g7",
+     "g0"
+    ],
+    [
+     "TNAND",
+     "g7",
+     "g5"
+    ],
+    [
+     "TNAND",
+     "g9",
+     "g4"
+    ]
+   ],
+   "outputs": [
+    "g10",
+    "g8"
+   ]
+  },
+  "sharifi2015": {
+   "transistors": 124,
+   "cells": 11,
+   "circuit": [
+    [
+     "TNAND",
+     "x1",
+     "x0"
+    ],
+    [
+     "TNOR",
+     "x1",
+     "x0"
+    ],
+    [
+     "PTI",
+     "g1",
+     "g1"
+    ],
+    [
+     "DEC",
+     "g0",
+     "g0"
+    ],
+    [
+     "DEC",
+     "g1",
+     "g1"
+    ],
+    [
+     "NTI",
+     "g4",
+     "g4"
+    ],
+    [
+     "TNAND",
+     "g2",
+     "g3"
+    ],
+    [
+     "TNAND",
+     "g5",
+     "g0"
+    ],
+    [
+     "TNAND",
+     "g6",
+     "g7"
+    ],
+    [
+     "STI",
+     "g8",
+     "g8"
+    ],
+    [
+     "TNAND",
+     "g0",
+     "g6"
+    ]
+   ],
+   "outputs": [
+    "g9",
+    "g10"
+   ]
+  },
+  "younepal2011": {
+   "transistors": 49,
+   "cells": 11,
+   "circuit": [
+    [
+     "TNAND",
+     "x1",
+     "x0"
+    ],
+    [
+     "TNOR",
+     "x0",
+     "x1"
+    ],
+    [
+     "NTI",
+     "g1",
+     "g1"
+    ],
+    [
+     "NTI",
+     "g2",
+     "g2"
+    ],
+    [
+     "PTI",
+     "g1",
+     "g1"
+    ],
+    [
+     "DEC",
+     "g0",
+     "g0"
+    ],
+    [
+     "TNAND",
+     "g5",
+     "g4"
+    ],
+    [
+     "TNAND",
+     "g0",
+     "g6"
+    ],
+    [
+     "TNAND",
+     "g3",
+     "g0"
+    ],
+    [
+     "TNAND",
+     "g6",
+     "g8"
+    ],
+    [
+     "TNAND",
+     "g4",
+     "g9"
+    ]
+   ],
+   "outputs": [
+    "g10",
+    "g7"
+   ]
+  },
+  "wall": 7856.2
+ },
+ "mul": {
+  "min_cells": 4,
+  "status": "OPTIMAL",
+  "lb_cells": 4,
+  "cells_circuit": [
+   [
+    "TNAND",
+    "x0",
+    "x1"
+   ],
+   [
+    "TNOR",
+    "x0",
+    "x1"
+   ],
+   [
+    "STI",
+    "g1",
+    "g1"
+   ],
+   [
+    "TNAND",
+    "g0",
+    "g2"
+   ]
+  ],
+  "outputs": [
+   "g3"
+  ],
+  "lin2011": {
+   "transistors": 36,
+   "cells": 4,
+   "circuit": [
+    [
+     "TNAND",
+     "x0",
+     "x1"
+    ],
+    [
+     "TNOR",
+     "x0",
+     "x1"
+    ],
+    [
+     "STI",
+     "g1",
+     "g1"
+    ],
+    [
+     "TNAND",
+     "g2",
+     "g0"
+    ]
+   ],
+   "outputs": [
+    "g3"
+   ]
+  },
+  "sharifi2015": {
+   "transistors": 56,
+   "cells": 4,
+   "circuit": [
+    [
+     "TNAND",
+     "x0",
+     "x1"
+    ],
+    [
+     "TNOR",
+     "x1",
+     "x0"
+    ],
+    [
+     "STI",
+     "g1",
+     "g1"
+    ],
+    [
+     "TNAND",
+     "g2",
+     "g0"
+    ]
+   ],
+   "outputs": [
+    "g3"
+   ]
+  },
+  "younepal2011": {
+   "transistors": 18,
+   "cells": 4,
+   "circuit": [
+    [
+     "TNOR",
+     "x0",
+     "x1"
+    ],
+    [
+     "STI",
+     "g0",
+     "g0"
+    ],
+    [
+     "TNAND",
+     "x0",
+     "x1"
+    ],
+    [
+     "TNAND",
+     "g1",
+     "g2"
+    ]
+   ],
+   "outputs": [
+    "g3"
+   ]
+  },
+  "wall": 31.8
+ }
+}

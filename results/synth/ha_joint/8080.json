@@ -1,0 +1,1 @@
+{"gate": 8080, "task": "ha_joint", "status": "OPTIMAL", "size": 7, "lb": 7, "depth_of_size_opt": null, "gates": [["g8080", "x0", "x1"], ["g8080", "g0", "x0"], ["g8080", "x1", "g1"], ["g8080", "g2", "g0"], ["g8080", "g3", "g0"], ["g8080", "g0", "g4"], ["g8080", "g5", "g0"]], "outputs": ["g3", "g6"], "wall_size": 0.52, "time_limit": 120.0}

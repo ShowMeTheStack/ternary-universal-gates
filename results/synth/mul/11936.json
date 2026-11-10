@@ -1,0 +1,1 @@
+{"gate": 11936, "task": "mul", "status": "OPTIMAL", "size": 7, "lb": 7, "depth_of_size_opt": null, "gates": [["g11936", "x0", "x0"], ["g11936", "g0", "x1"], ["g11936", "g0", "g1"], ["g11936", "g2", "g0"], ["g11936", "x1", "g3"], ["g11936", "x0", "g4"], ["g11936", "g5", "g1"]], "outputs": ["g6"], "wall_size": 0.42, "time_limit": 120.0}

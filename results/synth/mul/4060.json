@@ -1,0 +1,1 @@
+{"gate": 4060, "task": "mul", "status": "OPTIMAL", "size": 7, "lb": 7, "depth_of_size_opt": null, "gates": [["g4060", "x1", "x1"], ["g4060", "x0", "g0"], ["g4060", "g0", "g0"], ["g4060", "x0", "g2"], ["g4060", "g3", "g1"], ["g4060", "g4", "x0"], ["g4060", "g5", "g3"]], "outputs": ["g6"], "wall_size": 0.49, "time_limit": 120.0}

@@ -1,0 +1,1 @@
+{"gate": 443, "task": "ha_joint", "status": "OPTIMAL", "size": 9, "lb": 9, "depth_of_size_opt": null, "gates": [["g443", "x0", "x0"], ["g443", "x1", "x0"], ["g443", "x1", "g1"], ["g443", "x0", "g2"], ["g443", "x1", "g2"], ["g443", "g1", "g3"], ["g443", "g5", "g3"], ["g443", "g5", "g4"], ["g443", "g6", "g0"]], "outputs": ["g7", "g8"], "wall_size": 1.78, "time_limit": 120.0}

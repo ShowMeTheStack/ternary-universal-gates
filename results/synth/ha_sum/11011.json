@@ -1,0 +1,1 @@
+{"gate": 11011, "task": "ha_sum", "status": "OPTIMAL", "size": 2, "lb": 2, "depth_of_size_opt": null, "gates": [["g11011", "x1", "x0"], ["g11011", "g0", "x0"]], "outputs": ["g1"], "wall_size": 0.0, "time_limit": 300.0, "min_depth": 2, "min_depth_status": "OPTIMAL", "min_depth_size": 2, "min_depth_gates": [["g11011", "x1", "x0"], ["g11011", "g0", "x0"]], "wall_depth": 0.04}

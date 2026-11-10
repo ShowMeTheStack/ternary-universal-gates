@@ -1,0 +1,23 @@
+ternary-universal-gates: exact synthesis of balanced-ternary arithmetic from
+every universal two-input gate (code and results).
+
+Copyright (C) 2026 Jyotiprakash Mishra
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, version 3 of the License only (see the file LICENSE).
+
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU General Public License for details.
+
+ADDITIONAL TERM under section 7(b) of the GNU General Public License v3:
+any use, copy, modification, extension or redistribution of this program, in
+source or object form, must preserve the attribution of the original work to
+Jyotiprakash Mishra, in the source files, in the accompanying documentation
+and in any notices displayed to users, and must cite the author in any
+publication or derived work that uses or extends it.
+
+No linking, classpath or other exception is granted: the GNU General Public
+License v3 applies in full to any work that incorporates or links to this
+program.

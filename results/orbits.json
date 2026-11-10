@@ -1,0 +1,16 @@
+{
+  "universal": 3774,
+  "image_of_universal_is_universal": true,
+  "orbits12_all": 1734,
+  "orbits12_universal": 322,
+  "orbits4_all": 5130,
+  "orbits4_universal": 966,
+  "burnside_sum_all": 20808,
+  "burnside_orbits_all": 1734,
+  "burnside_sum_univ": 3864,
+  "burnside_orbits_univ": 322,
+  "burnside4_sum_univ": 3864,
+  "burnside4_orbits_univ": 966,
+  "class_size_hist_univ": [[6,15],[12,307]],
+  "fix": [{"perm":[0, 1, 2],"swap":false,"fix_all":19683,"fix_univ":3774},{"perm":[0, 1, 2],"swap":true,"fix_all":729,"fix_univ":90},{"perm":[0, 2, 1],"swap":false,"fix_all":81,"fix_univ":0},{"perm":[0, 2, 1],"swap":true,"fix_all":27,"fix_univ":0},{"perm":[1, 0, 2],"swap":false,"fix_all":81,"fix_univ":0},{"perm":[1, 0, 2],"swap":true,"fix_all":27,"fix_univ":0},{"perm":[1, 2, 0],"swap":false,"fix_all":27,"fix_univ":0},{"perm":[1, 2, 0],"swap":true,"fix_all":9,"fix_univ":0},{"perm":[2, 0, 1],"swap":false,"fix_all":27,"fix_univ":0},{"perm":[2, 0, 1],"swap":true,"fix_all":9,"fix_univ":0},{"perm":[2, 1, 0],"swap":false,"fix_all":81,"fix_univ":0},{"perm":[2, 1, 0],"swap":true,"fix_all":27,"fix_univ":0}]
+}

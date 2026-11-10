@@ -1,0 +1,12 @@
+{
+  "host": "mdev-desktop",
+  "kernel": "7.0.0-38-generic",
+  "cpu": "13th Gen Intel(R) Core(TM) i9-13900K",
+  "threads": "32",
+  "mem": "123Gi",
+  "rustc": "rustc 1.93.1 (01f6ddf75 2026-02-11) (built from a source tarball)",
+  "cargo": "cargo 1.93.1 (083ac5135 2025-12-15) (built from a source tarball)",
+  "python": "3.14.4",
+  "governor": "powersave",
+  "created": "2026-11-03T19:32:22.638422"
+}

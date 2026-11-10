@@ -1,0 +1,1 @@
+{"gate": 301, "task": "ha_joint", "status": "OPTIMAL", "size": 9, "lb": 9, "depth_of_size_opt": null, "gates": [["g301", "x1", "x0"], ["g301", "x1", "g0"], ["g301", "g1", "x0"], ["g301", "g1", "g2"], ["g301", "g3", "x1"], ["g301", "g4", "x0"], ["g301", "g1", "g5"], ["g301", "g3", "g5"], ["g301", "g6", "g7"]], "outputs": ["g7", "g8"], "wall_size": 3.35, "time_limit": 120.0}

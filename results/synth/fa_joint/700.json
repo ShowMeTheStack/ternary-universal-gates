@@ -1,0 +1,1 @@
+{"gate": 700, "task": "fa_joint", "status": "BOUNDS", "size": 32, "lb": 14, "ub": 32, "ub_chained": null, "ub_improved_status": "NO_UB", "Gs": null, "Gc": 8, "gates": null, "outputs": null, "wall_size": 228.53, "time_limit": 300.0}

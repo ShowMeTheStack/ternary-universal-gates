@@ -1,0 +1,6 @@
+N_bits,trits,bin_RCA_T_cmos,bin_RCA_T_nand,tern_RCA_T_etiemble,tern_RCA_T_single_gate,ratio_etiemble_vs_cmos,ratio_single_vs_cmos,bin_RCA_carry_levels_nand,tern_RCA_carry_levels_single,prefix_levels_bin,prefix_levels_tern,prefix_level_saving
+4,3,112,144,216,1872,1.929,16.714,12,,2,2,0.415
+8,6,224,288,432,3744,1.929,16.714,24,,3,3,0.415
+16,11,448,576,792,6864,1.768,15.321,48,,4,4,0.541
+32,21,896,1152,1512,13104,1.688,14.625,96,,5,5,0.608
+64,41,1792,2304,2952,25584,1.647,14.277,192,,6,6,0.642

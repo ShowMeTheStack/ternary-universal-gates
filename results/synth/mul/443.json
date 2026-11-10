@@ -1,0 +1,1 @@
+{"gate": 443, "task": "mul", "status": "OPTIMAL", "size": 6, "lb": 6, "depth_of_size_opt": null, "gates": [["g443", "x1", "x1"], ["g443", "x0", "g0"], ["g443", "x0", "g1"], ["g443", "g2", "x1"], ["g443", "g2", "g3"], ["g443", "g1", "g4"]], "outputs": ["g5"], "wall_size": 0.34, "time_limit": 120.0}

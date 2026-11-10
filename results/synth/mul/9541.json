@@ -1,0 +1,1 @@
+{"gate": 9541, "task": "mul", "status": "OPTIMAL", "size": 8, "lb": 8, "depth_of_size_opt": null, "gates": [["g9541", "x1", "x1"], ["g9541", "g0", "x0"], ["g9541", "g1", "x0"], ["g9541", "x1", "g2"], ["g9541", "g3", "x0"], ["g9541", "g1", "g4"], ["g9541", "g4", "g5"], ["g9541", "g2", "g6"]], "outputs": ["g7"], "wall_size": 0.66, "time_limit": 120.0}

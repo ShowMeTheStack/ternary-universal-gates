@@ -1,0 +1,1 @@
+{"gate": 1735, "task": "mul", "status": "OPTIMAL", "size": 7, "lb": 7, "depth_of_size_opt": null, "gates": [["g1735", "x0", "x1"], ["g1735", "x1", "x1"], ["g1735", "x1", "g0"], ["g1735", "g1", "g2"], ["g1735", "g2", "g1"], ["g1735", "g3", "x0"], ["g1735", "g4", "g5"]], "outputs": ["g6"], "wall_size": 0.44, "time_limit": 120.0}
